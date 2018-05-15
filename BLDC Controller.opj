@@ -1,0 +1,143 @@
+(ExpressProject "BLDC Controller"
+  (ProjectVersion "19981106")
+  (ProjectType "PCB")
+  (Folder "Design Resources"
+    (Folder "Library"
+      (File ".\library1.olb"
+        (Type "Schematic Library")))
+    (NoModify)
+    (File ".\bldc controller.dsn"
+      (Type "Schematic Design"))
+    (Board_sim_option "VHDL_flow")
+    (Netlist_TAB "0")
+    ("Create Allegro Netlist" "TRUE")
+    ("Allegro Netlist Directory" "allegro")
+    ("View Allegro Netlist Files" "FALSE")
+    ("Allegro Netlist Create DCF File" "FALSE")
+    ("Update Allegro Board" "FALSE")
+    ("Allegro Netlist Output Board File" "allegro\BLDC CONTROLLER.brd")
+    ("Allegro Netlist Remove Etch" "FALSE")
+    ("Allegro Netlist Place Changed Component" "ALWAYS_REPLACE")
+    ("Allegro Netlist Open Board in Allegro" "ALLEGRO")
+    ("Allegro Setup Backup Versions" "3")
+    ("Allegro Setup Ignore Constraints" "FALSE")
+    ("Allegro Setup Part Type Length" "31")
+    ("Allegro Netlist Combine Property String" "PCB Footprint")
+    ("Allegro Netlist Ignore Fixed Property" "FALSE")
+    ("Allegro Netlist User Defined Property" "FALSE")
+    (BuildFileAddedOrDeleted "x")
+    (CompileFileAddedOrDeleted "x"))
+  (Folder "Outputs"
+    (File ".\allegro\pstxnet.dat"
+      (Type "Report")
+      (DisplayName "pstxnet.dat"))
+    (File ".\allegro\pstxprt.dat"
+      (Type "Report")
+      (DisplayName "pstxprt.dat"))
+    (File ".\allegro\pstchip.dat"
+      (Type "Report")
+      (DisplayName "pstchip.dat")))
+  (Folder "Referenced Projects")
+  (MPSSessionName "vle")
+  (GlobalState
+    (FileView
+      (Path "Design Resources")
+      (Path "Design Resources"
+         "c:\users\vle.okintl\desktop\bldc\bldc controller.dsn")
+      (Path "Design Resources"
+         "c:\users\vle.okintl\desktop\bldc\bldc controller.dsn" "SCHEMATIC1")
+      (Path "Design Resources"
+         "c:\users\vle.okintl\desktop\bldc\bldc controller.dsn" "Design Cache")
+      (Path "Design Resources" "Library")
+      (Path "Design Resources" "Library"
+         "c:\users\vle.okintl\desktop\bldc\library1.olb")
+      (Path "Outputs")
+      (Select "Design Resources"
+         "c:\users\vle.okintl\desktop\bldc\bldc controller.dsn" "Design Cache"))
+    (HierarchyView)
+    (Doc
+      (Type "COrCapturePMDoc")
+      (Frame
+        (Placement "44 2 3 -1 -1 -8 -31 0 200 0 416"))
+      (Tab 0))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -31 78 1681 78 537")
+        (Scroll "0 180")
+        (Zoom "200")
+        (Occurrence "/"))
+      (Path "C:\USERS\VLE.OKINTL\DESKTOP\BLDC\BLDC CONTROLLER.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "Motor Driver"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -31 78 1388 78 537")
+        (Scroll "107 320")
+        (Zoom "200")
+        (Occurrence "/"))
+      (Path "C:\USERS\VLE.OKINTL\DESKTOP\BLDC\BLDC CONTROLLER.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "MOSFETS")))
+  (PartMRUSelector
+    (IRFS7530-7PPBF
+      (FullPartName "IRFS7530-7PPBF.Normal")
+      (LibraryName "C:\USERS\VLE.OKINTL\DESKTOP\BLDC\LIBRARY1.OLB")
+      (DeviceIndex "0"))
+    (IRFS7530
+      (FullPartName "IRFS7530.Normal")
+      (LibraryName "C:\USERS\VLE.OKINTL\DESKTOP\BLDC\LIBRARY1.OLB")
+      (DeviceIndex "0"))
+    (IRFF110
+      (FullPartName "IRFF110.Normal")
+      (LibraryName "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\PSPICE\IRF.OLB")
+      (DeviceIndex "0"))
+    (DRV8323RSRGZT
+      (FullPartName "DRV8323RSRGZT.Normal")
+      (LibraryName "C:\USERS\VLE.OKINTL\DESKTOP\BLDC\LIBRARY1.OLB")
+      (DeviceIndex "0"))
+    (DRV8323RSRGZR
+      (FullPartName "DRV8323RSRGZR.Normal")
+      (LibraryName "C:\USERS\VLE.OKINTL\DESKTOP\BLDC\LIBRARY1.OLB")
+      (DeviceIndex "0"))
+    ("CAP NP"
+      (FullPartName "CAP NP.Normal")
+      (LibraryName "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    (0
+      (LibraryName "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (C
+      (FullPartName "C.Normal")
+      (LibraryName
+         "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\PSPICE\ANALOG.OLB")
+      (DeviceIndex "0"))
+    (R
+      (FullPartName "R.Normal")
+      (LibraryName
+         "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\PSPICE\ANALOG.OLB")
+      (DeviceIndex "0"))
+    (C_elect
+      (FullPartName "C_elect.Normal")
+      (LibraryName
+         "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\PSPICE\ANALOG.OLB")
+      (DeviceIndex "0"))
+    (MBR1H100SFT3G
+      (FullPartName "MBR1H100SFT3G.Normal")
+      (LibraryName
+         "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\PSPICE\SCHOTTKY.OLB")
+      (DeviceIndex "0"))
+    (OFFPAGELEFT-R
+      (LibraryName "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (L
+      (FullPartName "L.Normal")
+      (LibraryName
+         "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\PSPICE\ANALOG.OLB")
+      (DeviceIndex "0"))
+    (OFFPAGELEFT-L
+      (LibraryName "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0")))
+  (LastUsedLibraryBrowseDirectory "C:\Users\vle.OKINTL\Desktop\BLDC")
+  (ISPCBBASICLICENSE "false"))
